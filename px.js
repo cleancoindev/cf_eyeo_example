@@ -1,6 +1,6 @@
 var abp = abp || false;
 var scripts = document.getElementsByTagName("script");
-var script = scripts[scripts.length­-1];
+var script = scripts[scripts.length - 1];
 if (script) {
   var query = script.src.replace(/^[^\?]+\??/, "").split("&");
   var params = {};
