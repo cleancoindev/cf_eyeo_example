@@ -1,0 +1,31 @@
+{
+  "small_image_url": "https://cdn.codefund.io/843b77c1-0e02-4ae9-a198-02257f8b7b63_digitalocean-200x200.png",
+  "reason": null,
+  "poweredByLink": "https://codefund.io",
+  "pixel": "/pixel.png",
+  "link": "#",
+  "large_image_url": "https://cdn.codefund.io/96edce46-299e-4ec9-abfe-852e6d402ef2_digitalocean-260x200.png",
+  "images": [
+    {
+      "width": 200,
+      "url": "https://cdn.codefund.io/843b77c1-0e02-4ae9-a198-02257f8b7b63_digitalocean-200x200.png",
+      "size_descriptor": "small",
+      "height": 200
+    },
+    {
+      "width": 260,
+      "url": "https://cdn.codefund.io/96edce46-299e-4ec9-abfe-852e6d402ef2_digitalocean-260x200.png",
+      "size_descriptor": "large",
+      "height": 200
+    },
+    {
+      "width": 512,
+      "url": "https://cdn.codefund.io/15451f59-b597-4bb5-a48b-0f65476eadc4_digitalocean-512x320.jpg",
+      "size_descriptor": "wide",
+      "height": 320
+    }
+  ],
+  "house_ad": false,
+  "headline": "DigitalOcean",
+  "description": "Test out the most developer-friendly cloud platform with a $100 credit."
+}
