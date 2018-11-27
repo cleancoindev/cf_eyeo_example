@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>CodeFund / ABP Async Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript" src="/px-async.js"></script>
+</head>
+
+<body>
+
+  <div id="codefund_ad">Ad1</div>
+
+  <script type="text/javascript" charset="utf­8">
+    AdblockPlus.detect("/px.gif", function (usesABP) {
+      var script = document.createElement("script");
+      script.src = "https://codefund.io/scripts/51b2fb2d-92c0-4c1a-b60b-825eb76e2a2f/embed.js?target=codefund_ad&is_adp_user=" + usesABP;
+      document.getElementById("codefund_ad").appendChild(script);
+    });
+  </script>
+
+</body>
+
+</html>
