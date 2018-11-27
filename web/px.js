@@ -1,4 +1,4 @@
-var abp = abp || false;
+window.abp = window.abp || false;
 var scripts = document.getElementsByTagName("script");
 var script = scripts[scripts.length - 1];
 if (script) {
@@ -8,6 +8,6 @@ if (script) {
     var param = query[i].split("=");
     params[param[0]] = param[1]
   }
-  if (params["ch"] == 1) abp = true;
-  else if (params["ch"] == 2) abp = abp && false
+  if (params["ch"] == 1) window.abp = true;
+  else if (params["ch"] == 2) window.abp = window.abp && false
 };
