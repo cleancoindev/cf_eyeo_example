@@ -15,7 +15,7 @@ var AdblockPlus = new function () {
     }
     
     function checkImages() {
-      if (++checksRemain) return;
+      if (--checksRemain) return;
       detected = !error1 && error2
     }
     
